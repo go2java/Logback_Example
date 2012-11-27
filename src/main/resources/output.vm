@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+ <html>
+ <body>
+	<h1>Информация по ${weather.city}, ${weather.region}, ${weather.country}:</h1>
+	
+	<ul>
+		<li>Температура: ${weather.temp}</li>
+		<li>Условия: ${weather.condition}</li>
+		<li>Влажность: ${weather.humidity}</li>
+		<li>Ветер: ${weather.chill}</li>
+	<ul>
+ </body>
+ </html>
